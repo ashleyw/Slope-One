@@ -2,9 +2,7 @@
 
 ## DESCRIPTION:
 
-Implementation of the [Slope One](http://en.wikipedia.org/wiki/Slope_One) collaborative filtering/recommendation algorithm.
-
-Ported to Ruby from Bryan O’Sullivan's [Python implementation](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/). All credit goes to him.
+Ruby implementation of the [Slope One](http://en.wikipedia.org/wiki/Slope_One) recommendation algorithm. Ported from Bryan O’Sullivan's awesome [Python implementation](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/). All credit goes to him, I just ruby-fied the code.
 
 ## SYNOPSIS:
 
@@ -37,7 +35,7 @@ Ported to Ruby from Bryan O’Sullivan's [Python implementation](http://www.serp
     }
 
     slope_one = SlopeOne.new
-    slope_one.update(user_data)
+    slope_one.insert(user_data)
     puts slope_one.predict({"House" => 3, "Big Bang Theory" => 7.5}).inspect
 
 ## INSTALL:
