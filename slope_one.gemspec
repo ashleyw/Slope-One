@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = "slope_one"
-  s.version     = 0.1
+  s.version     = '0.1.1'
   s.authors     = ["Ashley Williams"]
   s.email       = ["hi@ashleyw.co.uk"]
-  s.homepage    = "http://github.com/ashleyw/slope_one"
+  s.homepage    = "http://github.com/ashleyw/Slope-One"
   s.summary     = "Implementation of the Slope One recommendation algorithm."
   s.description = "Implementation of the weighted Slope One collaborative filtering/recommendation algorithm."
  
