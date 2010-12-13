@@ -2,7 +2,7 @@
 
 ## DESCRIPTION:
 
-Ruby implementation of the [Slope One](http://en.wikipedia.org/wiki/Slope_One) recommendation algorithm. Ported from Bryan O’Sullivan's awesome [Python implementation](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/). All credit goes to him, I just ruby-fied the code.
+Ruby implementation of the [Slope One](http://en.wikipedia.org/wiki/Slope_One) recommendation algorithm. Ported from Bryan O’Sullivan's awesome [Python implementation](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/).
 
 ## SYNOPSIS:
 
