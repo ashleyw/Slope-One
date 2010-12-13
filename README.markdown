@@ -50,7 +50,7 @@ or in your Gemfile:
 
 ## LICENSE:
 
-Copyright 2006 Bryan O'Sullivan <bos@serpentine.com> (Original implementation)
+Copyright 2006 Bryan O'Sullivan <bos@serpentine.com> (Original implementation)  
 Copyright 2010 Ashley Williams <hi@ashleyw.co.uk> (Ruby port)
 
 This software may be used and distributed according to the terms
