@@ -1,0 +1,9 @@
+Manifest.txt
+README.markdown
+Rakefile
+lib/slope_one.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_slope_one.rb
