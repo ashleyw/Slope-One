@@ -52,7 +52,6 @@ class TestSlopeOne < Test::Unit::TestCase
   
   def test_insufficient_data
     @slope_one = SlopeOne.new
-    # < here there nay be data insertion >
     input = {"Eastenders" => 7.25}
     output = {}
     input_test(input, output)
