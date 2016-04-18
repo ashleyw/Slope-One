@@ -32,7 +32,7 @@ class SlopeOne
 
     user.each do |item, rating|
       self.diffs.each do |diff_item, diff_ratings|
-        next if self.freqs[diff_item].nil? or diff_ratings[item].nil?
+        next if self.freqs[diff_item].nil? or diff_ratings[item].nil? or self.freqs[diff_item][item].nil?
         freq = self.freqs[diff_item][item]
         preds[diff_item] ||= 0.0
         freqs[diff_item] ||= 0
